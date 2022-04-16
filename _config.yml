@@ -21,18 +21,24 @@
 title: Jere Baez
 email: jere.baez91@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Un lugar para distintos contenidos interesantes a compartir, desde 
+  opiniones de libros, música, películas, series, hobbys, y lo que 
+  me ocurra exceptuando lo tecnico y profesional.
 baseurl: "/jeckyll-blog-v1" # the subpath of your site, e.g. /blog
 url: "https://jeremiasbaez.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: notengo
+# twitter_username: notwitterplis
 github_username:  jeremiasbaez
-
+youtube_username: JereBaez
+instagram_username: jerebaez5
 # Build settings
+# Theme
 theme: minima
+show_excerpts: true
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
